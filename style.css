@@ -124,8 +124,8 @@ main {
     padding-right: 0.2rem;
 }
 
-#cv > ul {
-    margin-left: 1rem;
+#cv > div > ul {
+   list-style: none;
 }
 
 #cv ul li {
@@ -135,14 +135,36 @@ main {
 /* Portfolio Start */
 #main-portfolio {
     height: auto;
-    justify-content: space-around;
+    justify-content: flex-start;
+
 }
 
+#slideContainer > button {
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#slideBox {
+    padding-top: 0.5rem;
+}
+
+#main-portfolio > div {
+    margin-top: 5px;
+    padding: 0.5rem;
+    border: 2px solid white;
+}
 
 #main-portfolio img {
     width: 10rem;
     
+
+    /* Portfolio End */
 }
+
+
 aside {
     display: flex;
     flex-direction: column;
@@ -153,6 +175,7 @@ aside {
     align-items: center;
     font-weight: 500;  
 }
+
 
 nav {
     width: 100%;

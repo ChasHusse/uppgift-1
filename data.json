@@ -1,0 +1,31 @@
+{
+    "studies": [
+        {
+            "title": "Chas Acedemy FJS2022 - still going",
+            "information": "Studying JavaScript fullstack developer at Chas Acedemy."
+        },
+        {
+            "title": "Yrkesgymansiet Carpenter 2011-2014",
+            "information": "I took exame as a carpenter."
+        },
+        {
+            "title": "LNU university - Webbteknik 1. 2019-2019",
+            "information": "I took a five week course about webb tecknolygi."
+        }
+    ],
+
+    "work": [
+        {
+            "title": "Ungdomsdialog 2013-2017",
+            "information": "Konsult för projektet Ungdomsdialog, där min uppgift var att koppla samman politker och ungdommar."
+        },
+        {
+            "title": "Carpenter 2014-2019",
+            "information": "Worked part time as a carpenter with my family where we renovated old appartments."
+        },
+        {
+            "title": "Elite Hotel 2015-2020",
+            "information": "Worked part time as a hotel recpenoist at nights."
+        }
+    ]
+}
