@@ -15,10 +15,9 @@ nextBtn.addEventListener("click", changeNextImage)
 prevBtn.addEventListener("click", changePrevImage)
 
 let order = ""
-slideBox.innerHTML = boxArray[order].innerHTML
+
 
 function changeNextImage() {
-    console.log(order)
     ++order
     if (order < boxArray.length) {
         slideBox.innerHTML = boxArray[order].innerHTML
@@ -30,7 +29,6 @@ function changeNextImage() {
 }
 
 function changePrevImage() {
-    console.log(order)
     --order
     if (order < 0) {
         order = boxArray.length - 1
